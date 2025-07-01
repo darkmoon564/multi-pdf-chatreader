@@ -3,6 +3,8 @@
 Chat with multiple PDF documents using AI!  
 This app enables contextual question-answering over multiple PDFs using state-of-the-art embeddings and an open-source language model.
 
+DEMO APP : https://multi-pdf-chatreader.streamlit.app
+
 
 ---
 
