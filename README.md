@@ -1,16 +1,36 @@
-# Multi-PDF ChatReader 📚💬
+# 📚 Multi-PDF ChatReader
 
-Interact with multiple PDFs using natural language questions. Powered by LangChain, FAISS, HuggingFace, and custom sentence embeddings.
+Chat with multiple PDF documents using AI!  
+This app enables contextual question-answering over multiple PDFs using state-of-the-art embeddings and an open-source language model.
 
-### 🔧 Features
-- Upload and parse multiple PDF files
-- Chunk, embed and store using FAISS
-- Ask questions and receive intelligent answers
-- Uses `flan-t5` or OpenAI models
-- Built with `Streamlit`
 
-### 🚀 Getting Started
+---
+
+## 🚀 Features
+- Upload and process multiple PDF documents
+- Text chunking & semantic embedding (MiniLM via `sentence-transformers`)
+- FAISS-based vector store for fast retrieval
+- Conversational agent powered by `Flan-T5` (Hugging Face Pipeline)
+- Streamlit UI for interactive chat
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools Used |
+|----------|------------|
+| Embeddings | `sentence-transformers` |
+| Vector Store | `FAISS` |
+| LLM | `Flan-T5` via HuggingFace |
+| UI | `Streamlit` |
+| Parsing | `PyPDF2` |
+| Orchestration | `LangChain` |
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/darkmoon564/multi-pdf-chatreader.git
+cd multi-pdf-chatreader
 pip install -r requirements.txt
-streamlit run app.py
